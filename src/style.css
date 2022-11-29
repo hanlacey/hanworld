@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap");
+
+body {
+  color: black;
+  font-family: Xanh Mono;
+  background-color: orchid;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  height: 98vh;
+  z-index: 1;
+  position: relative;
+}
+
+.landingImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.landing button {
+  background: red;
+  padding: 10px;
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+}
+
+img {
+  width: auto;
+}
