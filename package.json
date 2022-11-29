@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "push": "git add . && git commit -m 'auto push all changes' && git push"
+    "push": "git add . && git commit -m 'auto push all changes' && git push && neocities push ."
   },
   "repository": {
     "type": "git",
